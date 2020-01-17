@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "scythe_crafting": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "gnottero:armors/elytra/chainmail_armored_elytra"
+            }
+        }
+    },
+    "rewards": {
+        "function": "gnottero:adventure_plus/armors/elytra/chainmail"
+    }
+}

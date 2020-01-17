@@ -1,0 +1,3 @@
+# Execute a chain of raycasting commands to check if there is a storage block
+    execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #gnottero:storage_blocks unless data block ~ ~ ~ Items[] run function gnottero:adventure_plus/scrolls/storage/put_inv
+    execute as @s[distance=..5] if score @s gn.store_inv matches 1 positioned ^ ^ ^0.1 run function gnottero:adventure_plus/scrolls/storage/raycasting/rc_storage_put

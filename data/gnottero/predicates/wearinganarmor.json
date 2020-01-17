@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+            "head": {
+                "nbt": "{ctc:{traits:[\"item\",\"armor\"]}}"
+            },
+            "chest": {
+                "nbt": "{ctc:{traits:[\"item\",\"armor\"]}}"
+            },
+            "legs": {
+                "nbt": "{ctc:{traits:[\"item\",\"armor\"]}}"
+            },
+            "feet": {
+                "nbt": "{ctc:{traits:[\"item\",\"armor\"]}}"
+            }
+        }
+    }
+}

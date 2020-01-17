@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "CEC",
+        "IPI",
+        "CEC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:chest"
+        },
+        "E": {
+            "item": "minecraft:enchanted_book"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

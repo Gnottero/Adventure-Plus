@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "OOO",
+        "O O",
+        "   "
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

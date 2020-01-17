@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "scythe_crafting": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "gnottero:weapons/daggers/iron_dagger"
+            }
+        }
+    },
+    "rewards": {
+        "function": "gnottero:adventure_plus/weapons/daggers/give/iron"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "item": "carrot_on_a_stick",
+                "nbt": "{ctc:{traits:[\"item\",\"scroll\",\"scroll/linked\"]}}"
+            }
+        },
+        "player": {
+            "level": {
+                "min": 5,
+                "max": 2000000000
+            }
+        }
+    }
+}

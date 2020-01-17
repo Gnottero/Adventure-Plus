@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "flags": {
+            "is_sneaking": true
+        },
+        "equipment": {
+            "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{ctc:{id:\"empty_storage_scroll\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"scroll\",\"scroll/empty\"]}}"
+            }
+        },
+        "player": {
+            "level": {
+                "min": 5,
+                "max": 2000000000
+            }
+        }
+    }
+}

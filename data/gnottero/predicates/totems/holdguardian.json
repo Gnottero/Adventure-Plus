@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+            "offhand": {
+                "name": "minecraft:firework_star",
+                "nbt": "{CustomModelData:128002,ctc:{id:\"guardian_totem\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"totem\",\"totem/guardian\"]}}"
+            }
+        },
+        "effects": {
+            "minecraft:mining_fatigue": {}
+        }
+    }
+}

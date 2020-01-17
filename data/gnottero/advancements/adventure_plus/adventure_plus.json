@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Adventure Plus v1.0.0",
+        "description": [{
+            "text": "Enhance your Minecraft Adventure"
+        }],
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "gnottero:gnottero",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

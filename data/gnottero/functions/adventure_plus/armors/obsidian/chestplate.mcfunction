@@ -1,0 +1,5 @@
+# Replacing the Knowledge Book with an Obsidian Chestplate and removing both the advancement and the recipe
+    advancement revoke @s only gnottero:utility/obsidian_armor/detect_chestplate
+    clear @s minecraft:knowledge_book 1
+    give @s minecraft:leather_chestplate{display:{Lore:['{"text":""}','{"text":"Full set bonus:","color":"gray","italic":false}','{"text":" - Fire Resistance","color":"gray","italic":false}'],Name:'{"text":"Obsidian Chestplate","italic":false}',color:3091010},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:6,Operation:0,UUIDLeast:167014,UUIDMost:290630,Slot:"chest"}],HideFlags:36,Unbreakable:1b,ctc:{id:"obsidian_chestplate",from:"gnottero:adventure_plus",traits:["item","armor","armor/obsidian_chestplate"]}} 1
+    recipe take @s gnottero:armors/obsidian/chestplate

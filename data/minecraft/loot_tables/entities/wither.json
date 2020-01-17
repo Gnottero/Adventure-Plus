@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:entity",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [{
+                "function": "minecraft:set_nbt",
+                "tag": "{NeedUUID:1b,CustomModelData:128001,display:{Lore:['{\"text\":\"\"}','{\"text\":\"When in offhand:\",\"italic\":false,\"color\":\"gray\"}','{\"text\":\" - Wither Resistance I\",\"italic\":false,\"color\":\"gray\"}'],Name:'{\"text\":\"Totem of Rejuvenation\",\"color\":\"yellow\",\"italic\":false}'},ctc:{id:\"wither_totem\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"totem\",\"totem/wither\"]}}"
+            }],
+            "conditions": [{
+                "condition": "minecraft:random_chance_with_looting",
+                "chance": 0.25,
+                "looting_multiplier": 0.01
+            }]
+        }]
+    }]
+}

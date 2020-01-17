@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:player",
+        "equipment": {
+            "offhand": {
+                "name": "minecraft:firework_star",
+                "nbt": "{CustomModelData:128001,ctc:{id:\"wither_totem\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"totem\",\"totem/wither\"]}}"
+            }
+        },
+        "effects": {
+            "minecraft:wither": {}
+        }
+    }
+}

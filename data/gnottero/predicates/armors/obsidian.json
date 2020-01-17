@@ -1,0 +1,28 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:player",
+        "flags": {
+            "is_on_fire": true
+        },
+        "equipment": {
+            "head": {
+                "name": "leather_helmet",
+                "nbt": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Full set bonus:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" - Fire Resistance\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Obsidian Helmet\",\"italic\":false}',color:3091010},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDLeast:834026,UUIDMost:420449,Slot:\"head\"}],HideFlags:36,Unbreakable:1b,ctc:{id:\"obsidian_helmet\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"armor\",\"armor/obsidian_helmet\"]}}"
+            },
+            "chest": {
+                "name": "leather_chestplate",
+                "nbt": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Full set bonus:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" - Fire Resistance\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Obsidian Chestplate\",\"italic\":false}',color:3091010},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDLeast:167014,UUIDMost:290630,Slot:\"chest\"}],HideFlags:36,Unbreakable:1b,ctc:{id:\"obsidian_chestplate\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"armor\",\"armor/obsidian_chestplate\"]}}"
+            },
+            "legs": {
+                "name": "leather_leggings",
+                "nbt": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Full set bonus:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" - Fire Resistance\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Obsidian Leggings\",\"italic\":false}',color:3091010},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUIDLeast:591419,UUIDMost:896162,Slot:\"legs\"}],HideFlags:36,Unbreakable:1b,ctc:{id:\"obsidian_leggings\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"armor\",\"armor/obsidian_leggings\"]}}"
+            },
+            "feet": {
+                "name": "leather_boots",
+                "nbt": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Full set bonus:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" - Fire Resistance\",\"color\":\"gray\",\"italic\":false}'],Name:'{\"text\":\"Obsidian Boots\",\"italic\":false}',color:3091010},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDLeast:639065,UUIDMost:292186,Slot:\"feet\"}],HideFlags:36,Unbreakable:1b,ctc:{id:\"obsidian_boots\",from:\"gnottero:adventure_plus\",traits:[\"item\",\"armor\",\"armor/obsidian_boots\"]}}"
+            }
+        }
+    }
+}
